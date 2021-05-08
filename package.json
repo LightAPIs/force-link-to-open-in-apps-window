@@ -1,6 +1,6 @@
 {
   "name": "force-link-to-open-in-apps-window",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My Chrome Extension",
   "private": true,
   "scripts": {
@@ -18,5 +18,8 @@
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.7.3",
     "zip-webpack-plugin": "^4.0.1"
+  },
+  "dependencies": {
+    "arrive": "^2.4.1"
   }
 }

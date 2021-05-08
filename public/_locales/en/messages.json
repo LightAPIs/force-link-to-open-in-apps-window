@@ -1,0 +1,8 @@
+{
+  "extName": {
+    "message": "Force link to open in Apps window"
+  },
+  "extDes": {
+    "message": "Make the links in the Apps window always open in the current window."
+  }
+}

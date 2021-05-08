@@ -1,20 +1,14 @@
-# Force link to open in apps window
+# Force link to open in Apps window
 
-My Chrome Extension
+[![Release](https://img.shields.io/github/v/release/LightAPIs/force-link-to-open-in-apps-window.svg?color=orange)](https://github.com/LightAPIs/force-link-to-open-in-apps-window/releases/latest) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jafdabdlodjgkejpoccbigkciidafddl?maxAge=86400)](https://chrome.google.com/webstore/detail/jafdabdlodjgkejpoccbigkciidafddl) [![MIT](https://img.shields.io/badge/license-MIT-green)](/LICENSE)
 
-## Features
-
-- Feature 1
-- Feature 2
+Make the links in the Apps window always open in the current window.
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/jafdabdlodjgkejpoccbigkciidafddl)
+- [Releases](https://github.com/LightAPIs/one-click-reload-failed-tabs/releases/latest)
 
-## Contribution
+## License
 
-Suggestions and pull requests are welcomed!.
-
----
-
-This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
+[MIT](/LICENSE)

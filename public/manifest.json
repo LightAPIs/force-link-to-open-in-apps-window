@@ -1,36 +1,24 @@
 {
   "manifest_version": 2,
-  "name": "Force Link-to-open-in-apps-window",
-  "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "author": "pana",
+  "description": "__MSG_extDes__",
+  "default_locale": "en",
   "icons": {
     "16": "icons/icon_16.png",
+    "19": "icons/icon_16.png",
     "32": "icons/icon_32.png",
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
+    "scripts": ["background.js"],
+    "persistent": true
   },
   "browser_action": {
-    "default_title": "Force Link-to-open-in-apps-window",
-    "default_popup": "popup.html"
+    "default_title": "__MSG_extName__"
   },
-  "permissions": [
-    "storage"
-  ],
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "run_at": "document_idle",
-      "js": [
-        "contentScript.js"
-      ]
-    }
-  ]
+  "permissions": ["<all_urls>"],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk8iyzuBXQ5wm/FXJ+Ia8K+nah8uTEuWb5dJDUwUROLDwXkFva6pBZzwI1l/6g5srSXb6PIfoAHT+3Jj/4elE+3k/cxPOtnid8Po8Em8WP0C9pMyqmqcd2BRODBQFo9RG5PMFkKcR8J1TrxpGX8zyOkJuegPDv280OQQM0KTfexfHzBzpT4tzszI1w5x9iSd7cm6/XJP0F57tmN/D7zlg3Do+6bqrYkbmMebqZa6D+43HS2m3OEULCoGdVQmHc9T8Ew0rMdLvWmgT147fHZ2MsrxZSuNWGWvzODAq32wbmfOUb/8KTVARqkVlAnrp/WF2OSX5XjgclsqaGxQpgKB8EwIDAQAB"
 }
