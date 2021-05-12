@@ -3,6 +3,7 @@
   "name": "__MSG_extName__",
   "version": "1.0.0",
   "author": "pana",
+  "homepage_url": "https://github.com/LightAPIs/force-link-to-open-in-apps-window",
   "description": "__MSG_extDes__",
   "default_locale": "en",
   "icons": {
